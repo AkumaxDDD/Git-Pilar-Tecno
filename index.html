@@ -14,12 +14,13 @@
         <label for="email">Email</label><br>
         <input id="email" type="text"><br>
         <label for="contraseña">Contraseña</label><br>
-        <input id="contraseña" type="text"><br>
+        <input id="contraseña" type="password"><br>
         <label for="confirmarContraseña">Confirmar Contraseña</label><br>
-        <input id="confirmarContraseña" type="text"><br>
-        <button>Mostrar Contraseña</button>
-        <button>Enviar</button>
-
+        <input id="confirmarContraseña" type="password"><br>
+        <button type="button" onclick="mostrarContraseña()">Mostrar Contraseña</button>
+        <button type="button" id="enviar">Enviar</button>
     </form>
+    <script src="enviar.js"></script>
+    <script src="mostrarContraseña.js"></script>
 </body>
 </html>
